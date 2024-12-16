@@ -1,8 +1,11 @@
 
 <x-layout>
 
-
 <div class="container">
+
+
+
+
 
  <div class="sidebar">
    <h1>Il Mio Blog Personale</h1>
@@ -27,24 +30,26 @@
 
 
 
- <div class="service_detail">
-    <div class="service_detail_description">
-    <h1>{{$article['name']}}</h1>
+  <div class="service_detail">
+      <div class="service_detail_description">
+    <h1>{{$service['name']}}</h1>
 
-    <p>{{$article['article']}}</p>
-    </div>
-        <div class="service_detail_img">
-    <img src="https://picsum.photos/300/200" alt="">
-    <img src="https://picsum.photos/300/201" alt="">
-    <img src="https://picsum.photos/300/202" alt="">
-    <img src="https://picsum.photos/300/203" alt="">
-    <img src="https://picsum.photos/300/204" alt="">
-    <img src="https://picsum.photos/300/205" alt="">
-         </div>
+    <p>{{$service['description']}}</p>
+      </div>
+      <div class="service_detail_img">
+        <img src="https://picsum.photos/300/200" alt="">
+        <img src="https://picsum.photos/300/201" alt="">
+        <img src="https://picsum.photos/300/202" alt="">
+         <img src="https://picsum.photos/300/203" alt="">
+        <img src="https://picsum.photos/300/204" alt="">
+         <img src="https://picsum.photos/300/205" alt="">
+     </div>
+
   </div>
 </div>
 
-
-
-
 </x-layout>
+
+
+
+

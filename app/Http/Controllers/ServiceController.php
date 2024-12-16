@@ -36,7 +36,7 @@ class ServiceController extends Controller {
         
         if($name == $service['name']){
 
-          return view('service.serviceDetail', [ 'service' => $service]);
+          return view('servizi.serviceDetail', [ 'service' => $service]);
         }
 
       }
